@@ -1,0 +1,2 @@
+.ID.	his_len	max_attempts	.PARENT.
+220	4033	466	135

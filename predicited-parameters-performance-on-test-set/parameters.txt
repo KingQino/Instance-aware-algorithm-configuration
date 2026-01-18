@@ -1,0 +1,8 @@
+E-n22-k4.evrp  -his_len 1994 -max_attempts 43 
+E-n112-k8-s11.evrp  -his_len 1505 -max_attempts 6
+F-n140-k5-s5.evrp  -his_len 4400 -max_attempts 9
+M-n212-k16-s12.evrp -his_len 2854 -max_attempts 7
+X-n221-k11-s7.evrp  -his_len 6095 -max_attempts 283
+X-n469-k26-s10.evrp  -his_len 5630 -max_attempts 237
+X-n698-k75-s13.evrp  -his_len 5549 -max_attempts 486
+X-n1006-k43-s5.evrp  -his_len 7018 -max_attempts 503

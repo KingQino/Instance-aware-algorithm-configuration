@@ -1,0 +1,28 @@
+parameterFile = "parameters.txt"
+trainInstancesFile = "instances.txt"
+targetRunner = "./target-runner"
+logFile = "irace.Rdata"
+execDir = "./"
+
+# parallel
+parallel = 128
+loadBalancing = 1
+
+# budget
+maxExperiments = 2920
+minExperiments = NA
+
+# instance-related
+blockSize = 1
+# sampleInstances = 1 # Random sampling - don't iUse instances in the order specified in instances.txt (fast to slow)
+
+# racing
+firstTest = 10 
+eachTest  = 10 
+
+# default config
+configurationsFile = "configurations.txt"
+
+# post selection and select top 10 configs
+postselection = 0
+minNbSurvival = 10

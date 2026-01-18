@@ -1,0 +1,2 @@
+.ID.	his_len	max_attempts	.PARENT.
+40	3058	6	NA

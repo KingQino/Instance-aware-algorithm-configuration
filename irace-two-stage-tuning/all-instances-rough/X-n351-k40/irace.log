@@ -1,0 +1,233 @@
+Starting irace...
+# 2025-12-26 13:34:54 GMT: Reading parameter file '/gpfs/home/e/exx866/IRACE-b-LAHC/all-instances-rough/X-n351-k40/parameters.txt'.
+# 2025-12-26 13:34:55 GMT: Read 1 configuration(s) from file '/gpfs/home/e/exx866/IRACE-b-LAHC/all-instances-rough/X-n351-k40/configurations.txt'
+# 2025-12-26 13:34:56 GMT: Initialization
+# Elitist race
+# Elitist new instances: 1
+# Elitist limit: 2
+# nbIterations: 3
+# minNbSurvival: 10
+# nbParameters: 2
+# seed: 104766572
+# confidence level: 0.95
+# budget: 3500
+# mu: 10
+# deterministic: FALSE
+
+# 2025-12-26 13:34:56 GMT: Iteration 1 of 3
+# experimentsUsed: 0
+# remainingBudget: 3500
+# currentBudget: 1166
+# nbConfigurations: 58
+# Markers:
+     x No test is performed.
+     c Configurations are discarded only due to capping.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+     . All alive configurations are elite and nothing is discarded.
+
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|       Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+|x|          1|         58|         38|     26298.15000|         58|00:03:04|   NA|  NA|    NA|
+|x|          2|         58|         20|     26341.77000|        116|00:02:32|+0.77|0.88|0.1062|
+|x|          3|         58|          4|     26354.09667|        174|00:02:43|+0.75|0.83|0.0925|
+|x|          4|         58|         20|     26362.54250|        232|00:02:46|+0.76|0.82|0.0835|
+|x|          5|         58|          4|     26338.74800|        290|00:02:43|+0.76|0.81|0.0858|
+|x|          6|         58|          4|     26342.49500|        348|00:02:56|+0.78|0.81|0.0798|
+|x|          7|         58|          4|     26338.68286|        406|00:02:42|+0.76|0.80|0.0866|
+|x|          8|         58|          4|     26341.86750|        464|00:02:39|+0.76|0.79|0.0848|
+|x|          9|         58|          4|     26344.64111|        522|00:02:48|+0.77|0.79|0.0826|
+|-|         10|          6|          4|     26345.03600|        580|00:02:42|-0.03|0.07|0.8638|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+Best-so-far configuration:           4    mean value:      26345.03600
+Description of the best-so-far configuration:
+  .ID. his_len max_attempts .PARENT.
+4    4    5946          479       NA
+
+# 2025-12-26 14:02:35 GMT: Elite configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+   his_len max_attempts
+4     5946          479
+24    7793          432
+45    3175          408
+6     3483          291
+20   10256          119
+38    6869          127
+# 2025-12-26 14:02:35 GMT: Iteration 2 of 3
+# experimentsUsed: 580
+# remainingBudget: 2920
+# currentBudget: 1460
+# nbConfigurations: 50
+# Markers:
+     x No test is performed.
+     c Configurations are discarded only due to capping.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+     . All alive configurations are elite and nothing is discarded.
+
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|       Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+|x|         11|         50|         88|     26279.50000|         50|00:02:21|   NA|  NA|    NA|
+|x|          8|         50|         84|     26289.85500|         94|00:02:12|+0.21|0.60|0.7566|
+|x|          9|         50|         91|     26326.38333|        138|00:02:39|+0.16|0.44|0.7743|
+|x|          2|         50|         24|     26347.99750|        182|00:02:07|+0.13|0.35|0.8020|
+|x|          5|         50|         77|     26341.85800|        226|00:02:28|+0.16|0.33|0.7713|
+|x|          1|         50|         96|     26332.71167|        270|00:02:29|+0.15|0.29|0.7826|
+|x|          3|         50|         96|     26330.37143|        314|00:02:15|+0.16|0.28|0.7782|
+|x|         10|         50|         96|     26335.36125|        358|00:02:18|+0.17|0.27|0.7705|
+|x|          4|         50|         96|     26340.21556|        402|00:02:15|+0.17|0.26|0.7622|
+|-|          7|         24|         96|     26338.85700|        446|00:02:12|-0.03|0.07|0.9904|
+|x|          6|         24|         96|     26343.47727|        464|00:02:02|+0.00|0.09|0.9654|
+|x|         12|         24|         96|     26336.54333|        488|00:02:04|+0.01|0.09|0.9654|
+|x|         13|         24|         96|     26341.60923|        512|00:01:56|-0.00|0.08|0.9741|
+|x|         14|         24|         96|     26332.37143|        536|00:01:53|+0.01|0.08|0.9627|
+|x|         15|         24|         96|     26332.38267|        560|00:01:56|+0.01|0.08|0.9585|
+|x|         16|         24|         96|     26338.03062|        584|00:01:50|+0.01|0.07|0.9637|
+|x|         17|         24|         96|     26343.79471|        608|00:01:56|+0.00|0.06|0.9676|
+|x|         18|         24|         96|     26350.38389|        632|00:01:59|+0.00|0.06|0.9627|
+|x|         19|         24|         96|     26352.39316|        656|00:02:00|+0.00|0.05|0.9632|
+|=|         20|         24|         77|     26371.57500|        680|00:01:55|-0.00|0.05|0.9636|
+|x|         21|         24|         77|     26371.20905|        704|00:01:50|-0.00|0.05|0.9631|
+|x|         22|         24|         96|     26358.35409|        728|00:01:51|+0.01|0.05|0.9528|
+|x|         23|         24|         77|     26372.21478|        752|00:01:56|+0.00|0.05|0.9553|
+|x|         24|         24|         91|     26369.09375|        776|00:02:03|+0.01|0.05|0.9525|
+|x|         25|         24|         91|     26373.21920|        800|00:01:53|+0.01|0.05|0.9533|
+|x|         26|         24|         77|     26373.85154|        824|00:01:58|+0.01|0.05|0.9519|
+|x|         27|         24|         77|     26374.01741|        848|00:01:56|+0.01|0.05|0.9472|
+|x|         28|         24|         79|     26373.72714|        872|00:01:57|+0.01|0.05|0.9468|
+|x|         29|         24|         91|     26373.48552|        896|00:01:58|+0.01|0.05|0.9483|
+|=|         30|         24|         91|     26372.29133|        920|00:01:59|+0.02|0.05|0.9490|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+Best-so-far configuration:          91    mean value:      26372.29133
+Description of the best-so-far configuration:
+   .ID. his_len max_attempts .PARENT.
+91   91    6433          463       24
+
+# 2025-12-26 15:05:00 GMT: Elite configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+   his_len max_attempts
+91    6433          463
+77    6267          481
+79    3588          495
+65    7283          445
+96    5575          483
+88    4501          252
+73    5258          413
+59    7490          464
+70    3568          434
+94    7069          500
+# 2025-12-26 15:05:00 GMT: Iteration 3 of 3
+# experimentsUsed: 1500
+# remainingBudget: 2000
+# currentBudget: 2000
+# nbConfigurations: 57
+# Markers:
+     x No test is performed.
+     c Configurations are discarded only due to capping.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+     . All alive configurations are elite and nothing is discarded.
+
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|       Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+|x|         31|         57|        142|     26267.41000|         57|00:02:14|   NA|  NA|    NA|
+|x|         24|         57|        142|     26283.83500|        104|00:02:18|-0.06|0.47|1.0421|
+|x|         30|         57|         94|     26312.29000|        151|00:02:20|-0.03|0.31|1.0234|
+|x|         14|         57|         94|     26304.01250|        198|00:02:05|+0.02|0.27|0.9708|
+|x|          3|         57|         94|     26319.40600|        245|00:02:13|+0.02|0.21|0.9662|
+|x|         19|         57|        136|     26327.31000|        292|00:02:10|-0.01|0.16|0.9746|
+|x|         23|         57|        136|     26323.29714|        339|00:02:14|-0.00|0.14|0.9704|
+|x|          5|         57|        119|     26336.04875|        386|00:02:14|-0.00|0.12|0.9761|
+|x|         28|         57|        136|     26334.37556|        433|00:02:12|-0.01|0.10|0.9907|
+|=|          2|         57|        119|     26347.74100|        480|00:02:03|-0.01|0.09|0.9923|
+|x|         22|         57|         88|     26352.84455|        527|00:02:09|-0.01|0.08|0.9893|
+|x|         21|         57|         88|     26357.37917|        574|00:02:03|+0.00|0.08|0.9760|
+|x|         17|         57|        136|     26351.59462|        621|00:02:10|+0.01|0.09|0.9697|
+|x|          9|         57|        136|     26350.95214|        668|00:02:11|+0.00|0.07|0.9740|
+|x|         20|         57|         77|     26356.10600|        715|00:02:06|-0.00|0.06|0.9791|
+|x|          7|         57|        147|     26345.93562|        762|00:02:10|-0.00|0.06|0.9763|
+|x|          1|         57|        147|     26342.81706|        809|00:02:15|+0.00|0.06|0.9741|
+|x|         10|         57|        131|     26358.62389|        856|00:02:13|+0.00|0.06|0.9763|
+|x|         15|         57|        131|     26359.41632|        903|00:02:09|+0.00|0.06|0.9744|
+|=|         16|         57|        131|     26362.89550|        950|00:02:06|-0.00|0.05|0.9796|
+|x|         27|         57|        147|     26359.91714|        997|00:02:11|+0.00|0.05|0.9758|
+|x|          4|         57|        147|     26357.70818|       1044|00:02:15|+0.01|0.05|0.9721|
+|x|         29|         57|        121|     26369.59696|       1091|00:02:11|+0.01|0.05|0.9711|
+|x|         26|         57|        142|     26358.98333|       1138|00:02:12|+0.01|0.05|0.9709|
+|x|         25|         57|        142|     26359.17080|       1185|00:02:09|+0.00|0.04|0.9760|
+|x|         18|         57|        121|     26367.22885|       1232|00:02:16|+0.00|0.04|0.9774|
+|x|          6|         57|        121|     26367.46000|       1279|00:02:20|+0.01|0.04|0.9752|
+|x|          8|         57|        121|     26366.47464|       1326|00:02:07|+0.01|0.04|0.9744|
+|x|         13|         57|        121|     26365.22931|       1373|00:02:11|+0.01|0.04|0.9744|
+|=|         11|         57|        121|     26365.12567|       1420|00:02:16|+0.01|0.04|0.9724|
+|x|         12|         57|        121|     26367.10452|       1467|00:02:10|+0.01|0.04|0.9720|
+|x|         32|         57|        131|     26359.24125|       1524|00:02:21|+0.01|0.04|0.9725|
+|x|         33|         57|        131|     26354.17697|       1581|00:02:24|+0.01|0.04|0.9682|
+|x|         34|         57|        131|     26357.41353|       1638|00:02:22|+0.01|0.04|0.9719|
+|x|         35|         57|        131|     26359.86400|       1695|00:02:10|+0.01|0.04|0.9726|
+|x|         36|         57|        131|     26360.80639|       1752|00:02:13|+0.01|0.04|0.9736|
+|x|         37|         57|        142|     26363.35108|       1809|00:02:21|+0.01|0.04|0.9727|
+|x|         38|         57|        131|     26361.46711|       1866|00:02:21|+0.01|0.03|0.9745|
+|x|         39|         57|        138|     26369.49462|       1923|00:02:17|+0.01|0.03|0.9750|
+|=|         40|         57|        138|     26369.43825|       1980|00:02:17|+0.01|0.03|0.9754|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+Best-so-far configuration:         138    mean value:      26369.43825
+Description of the best-so-far configuration:
+    .ID. his_len max_attempts .PARENT.
+138  138    7171          444       65
+
+# 2025-12-26 16:33:58 GMT: Elite configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+    his_len max_attempts
+138    7171          444
+121    6970          500
+144    7092          436
+131    6403          457
+142    3650          498
+91     6433          463
+124    7422          436
+113    6709          452
+88     4501          252
+59     7490          464
+# 2025-12-26 16:33:58 GMT: Stopped because there is not enough budget left to race more than the minimum (10).
+# You may either increase the budget or set 'minNbSurvival' to a lower value.
+# Iteration: 4
+# nbIterations: 4
+# experimentsUsed: 3480
+# timeUsed: 0
+# remainingBudget: 20
+# currentBudget: 20
+# number of elites: 10
+# nbConfigurations: 10
+# Total CPU user time: 390919.2, CPU sys time: 2282.548, Wall-clock time: 10743.17
+# Best configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+    his_len max_attempts
+138    7171          444
+121    6970          500
+144    7092          436
+131    6403          457
+142    3650          498
+91     6433          463
+124    7422          436
+113    6709          452
+88     4501          252
+59     7490          464
+# Best configurations as commandlines (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+138 -his_len 7171 -max_attempts 444
+121 -his_len 6970 -max_attempts 500
+144 -his_len 7092 -max_attempts 436
+131 -his_len 6403 -max_attempts 457
+142 -his_len 3650 -max_attempts 498
+91  -his_len 6433 -max_attempts 463
+124 -his_len 7422 -max_attempts 436
+113 -his_len 6709 -max_attempts 452
+88  -his_len 4501 -max_attempts 252
+59  -his_len 7490 -max_attempts 464
+
+
+# Testing of elite configurations: 1 
+# Testing iteration configurations: FALSE 
+# 2025-12-26 16:33:58 GMT: No test instances, skip testing

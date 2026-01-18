@@ -1,0 +1,2 @@
+.ID.	his_len	max_attempts	.PARENT.
+78	814	10	NA

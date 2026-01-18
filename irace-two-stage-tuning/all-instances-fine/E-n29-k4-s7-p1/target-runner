@@ -1,0 +1,39 @@
+#!/bin/bash
+###############################################################################
+# This script is the command that is executed every run.
+###############################################################################
+error() {
+    echo "`TZ=UTC date`: $0: error: $@"
+    exit 1
+}
+
+CONFIG_ID=$1
+INSTANCE_ID=$2
+SEED=$3
+INSTANCE=$4
+shift 4 || error "Not enough parameters"
+CONFIG_PARAMS=$*
+
+EXE=/home/e/exx866/IRACE-b-LAHC/E-CVRP-Learning/build/Run
+EXE_PARAMS="-alg lahc -ins $INSTANCE -log 0 -stp 0 -mth 0 -seed ${SEED} -low_margin 1.01 -noise_lb 0.95 -noise_ub 1.05 -exp 0 ${CONFIG_PARAMS}"
+
+if [ ! -x "$(command -v ${EXE})" ]; then
+    error "${EXE}: not found or not executable (pwd: $(pwd))"
+fi
+
+STDOUT=c${CONFIG_ID}-${INSTANCE_ID}-${SEED}.stdout
+STDERR=c${CONFIG_ID}-${INSTANCE_ID}-${SEED}.stderr
+
+START=$(date +%s.%N)
+$EXE ${EXE_PARAMS} 1> ${STDOUT} 2> ${STDERR}
+END=$(date +%s.%N)
+TIME=$(echo "$END - $START" | bc)
+
+if [ ! -s "${STDOUT}" ]; then
+    error "${STDOUT}: No such file or directory"
+fi
+
+COST=$(tail -n 1 ${STDOUT} | grep -e '^[[:space:]]*[+-]\?[0-9]' | cut -f1)
+echo "$COST $TIME"
+rm -f "${STDOUT}" "${STDERR}"
+exit 0

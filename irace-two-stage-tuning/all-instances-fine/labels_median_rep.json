@@ -1,0 +1,40 @@
+{
+  "instances": {
+    "X-n749-k98": {
+      "n_configs": 2,
+      "log_path": "./X-n749-k98/irace.log",
+      "his_stats": {
+        "q25": 8499.5,
+        "median": 8515.0,
+        "q75": 8530.5,
+        "iqr": 31.0
+      },
+      "att_stats": {
+        "q25": 469.5,
+        "median": 478.0,
+        "q75": 486.5,
+        "iqr": 17.0
+      },
+      "representative": {
+        "cfg_id": 27,
+        "rank": 2,
+        "his_len": 8546,
+        "max_attempts": 461
+      },
+      "configs": [
+        {
+          "rank": 1,
+          "cfg_id": 47,
+          "his_len": 8484,
+          "max_attempts": 495
+        },
+        {
+          "rank": 2,
+          "cfg_id": 27,
+          "his_len": 8546,
+          "max_attempts": 461
+        }
+      ]
+    }
+  }
+}

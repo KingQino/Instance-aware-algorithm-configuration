@@ -1,0 +1,247 @@
+Starting irace...
+# 2025-12-26 13:34:57 GMT: Reading parameter file '/gpfs/home/e/exx866/IRACE-b-LAHC/all-instances-rough/E-n30-k3-s7/parameters.txt'.
+# 2025-12-26 13:34:58 GMT: Read 1 configuration(s) from file '/gpfs/home/e/exx866/IRACE-b-LAHC/all-instances-rough/E-n30-k3-s7/configurations.txt'
+# 2025-12-26 13:34:58 GMT: Initialization
+# Elitist race
+# Elitist new instances: 1
+# Elitist limit: 2
+# nbIterations: 3
+# minNbSurvival: 10
+# nbParameters: 2
+# seed: 808570916
+# confidence level: 0.95
+# budget: 3500
+# mu: 10
+# deterministic: FALSE
+
+# 2025-12-26 13:34:58 GMT: Iteration 1 of 3
+# experimentsUsed: 0
+# remainingBudget: 3500
+# currentBudget: 1166
+# nbConfigurations: 58
+# Markers:
+     x No test is performed.
+     c Configurations are discarded only due to capping.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+     . All alive configurations are elite and nothing is discarded.
+
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|       Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+|x|          1|         58|          1|     569.5400000|         58|00:00:54|   NA|  NA|    NA|
+|x|          2|         58|          1|     569.5400000|        116|00:00:47|+1.00|1.00|0.0000|
+|x|          3|         58|          1|     569.5400000|        174|00:00:46|+1.00|1.00|0.0000|
+|x|          4|         58|          1|     569.5400000|        232|00:00:45|+1.00|1.00|0.0000|
+|x|          5|         58|          1|     569.5400000|        290|00:00:44|+1.00|1.00|0.0000|
+|x|          6|         58|          1|     569.5400000|        348|00:00:43|+1.00|1.00|0.0000|
+|x|          7|         58|          1|     569.5400000|        406|00:00:42|+1.00|1.00|0.0000|
+|x|          8|         58|          1|     569.5400000|        464|00:00:41|+0.00|0.12|0.1228|
+|x|          9|         58|          1|     569.5400000|        522|00:00:41|+0.00|0.11|0.1092|
+|=|         10|         58|          1|     569.5400000|        580|00:00:41|+0.00|0.10|0.0983|
+|x|         11|         58|          1|     569.5400000|        638|00:00:42|+0.00|0.09|0.0893|
+|x|         12|         58|          1|     569.5400000|        696|00:00:41|+0.00|0.08|0.0819|
+|x|         13|         58|          1|     569.5400000|        754|00:00:42|+0.00|0.08|0.0756|
+|x|         14|         58|          1|     569.5400000|        812|00:00:43|+0.00|0.07|0.0702|
+|x|         15|         58|          1|     569.5400000|        870|00:00:43|+0.00|0.07|0.0655|
+|x|         16|         58|          1|     569.5400000|        928|00:00:42|+0.00|0.06|0.0614|
+|x|         17|         58|          1|     569.5400000|        986|00:00:42|+0.00|0.06|0.0578|
+|x|         18|         58|          1|     569.5400000|       1044|00:00:42|+0.00|0.06|0.0546|
+|x|         19|         58|          1|     569.5400000|       1102|00:00:42|+0.00|0.05|0.0517|
+|=|         20|         58|          1|     569.5400000|       1160|00:00:39|+0.01|0.06|0.0959|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+Best-so-far configuration:           1    mean value:      569.5400000
+Description of the best-so-far configuration:
+  .ID. his_len max_attempts .PARENT.
+1    1    5723           60       NA
+
+# 2025-12-26 13:49:29 GMT: Elite configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+   his_len max_attempts
+1     5723           60
+3     7086            7
+4     2161          382
+5    12012          132
+7    19400           70
+9     4624          195
+10    8318          163
+12    3393          288
+13   13243           38
+15     930          101
+# 2025-12-26 13:49:29 GMT: Iteration 2 of 3
+# experimentsUsed: 1160
+# remainingBudget: 2340
+# currentBudget: 1170
+# nbConfigurations: 45
+# Markers:
+     x No test is performed.
+     c Configurations are discarded only due to capping.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+     . All alive configurations are elite and nothing is discarded.
+
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|       Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+|x|         21|         45|          1|     569.5400000|         45|00:00:28|   NA|  NA|    NA|
+|x|         11|         45|          1|     569.5400000|         80|00:00:23|+1.00|1.00|0.0000|
+|x|         17|         45|          1|     569.5400000|        115|00:00:23|+1.00|1.00|0.0000|
+|x|          6|         45|          1|     569.5400000|        150|00:00:23|+1.00|1.00|0.0000|
+|x|          3|         45|          1|     569.5400000|        185|00:00:22|+1.00|1.00|0.0000|
+|x|         14|         45|          1|     569.5400000|        220|00:00:23|+1.00|1.00|0.0000|
+|x|          2|         45|          1|     569.5400000|        255|00:00:23|+1.00|1.00|0.0000|
+|x|          9|         45|          1|     569.5400000|        290|00:00:23|+1.00|1.00|0.0000|
+|x|         20|         45|          1|     569.5400000|        325|00:00:23|+1.00|1.00|0.0000|
+|=|          8|         45|          1|     569.5400000|        360|00:00:23|+0.00|0.10|0.0978|
+|x|         18|         45|          1|     569.5400000|        395|00:00:23|+0.00|0.09|0.0889|
+|x|          4|         45|          1|     569.5400000|        430|00:00:23|+0.00|0.08|0.0815|
+|x|         12|         45|          1|     569.5400000|        465|00:00:23|+0.00|0.08|0.0752|
+|x|         13|         45|          1|     569.5400000|        500|00:00:23|+0.00|0.07|0.0698|
+|x|          1|         45|          1|     569.5400000|        535|00:00:22|+0.00|0.07|0.0652|
+|x|         10|         45|          1|     569.5400000|        570|00:00:23|+0.00|0.06|0.0611|
+|x|          5|         45|          1|     569.5400000|        605|00:00:22|+0.00|0.06|0.0575|
+|x|         15|         45|          1|     569.5400000|        640|00:00:25|+0.00|0.06|0.0543|
+|x|         16|         45|          1|     569.5400000|        675|00:00:24|+0.00|0.05|0.0515|
+|=|          7|         45|          1|     569.5400000|        710|00:00:22|+0.00|0.05|0.0489|
+|x|         19|         45|          1|     569.5400000|        745|00:00:26|+0.00|0.05|0.0466|
+|x|         22|         45|          1|     569.5400000|        790|00:00:30|+0.00|0.05|0.0444|
+|x|         23|         45|          1|     569.5400000|        835|00:00:30|+0.00|0.04|0.0425|
+|x|         24|         45|          1|     569.5400000|        880|00:00:30|+0.00|0.04|0.0407|
+|x|         25|         45|          1|     569.5400000|        925|00:00:29|+0.00|0.04|0.0391|
+|x|         26|         45|          1|     569.5400000|        970|00:00:30|+0.00|0.04|0.0376|
+|x|         27|         45|          1|     569.5400000|       1015|00:00:30|+0.00|0.04|0.0362|
+|x|         28|         45|          1|     569.5400000|       1060|00:00:30|+0.00|0.04|0.0349|
+|x|         29|         45|          1|     569.5400000|       1105|00:00:29|+0.00|0.03|0.0337|
+|=|         30|         45|          1|     569.5400000|       1150|00:00:28|+0.00|0.03|0.0326|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+Best-so-far configuration:           1    mean value:      569.5400000
+Description of the best-so-far configuration:
+  .ID. his_len max_attempts .PARENT.
+1    1    5723           60       NA
+
+# 2025-12-26 14:02:21 GMT: Elite configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+   his_len max_attempts
+1     5723           60
+3     7086            7
+4     2161          382
+5    12012          132
+7    19400           70
+9     4624          195
+10    8318          163
+12    3393          288
+13   13243           38
+15     930          101
+# 2025-12-26 14:02:21 GMT: Iteration 3 of 3
+# experimentsUsed: 2310
+# remainingBudget: 1190
+# currentBudget: 1190
+# nbConfigurations: 37
+# Markers:
+     x No test is performed.
+     c Configurations are discarded only due to capping.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+     . All alive configurations are elite and nothing is discarded.
+
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|       Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+|x|         31|         37|          1|     569.5400000|         37|00:00:20|   NA|  NA|    NA|
+|x|          4|         37|          1|     569.5400000|         64|00:00:17|+1.00|1.00|0.0000|
+|x|         30|         37|          1|     569.5400000|         91|00:00:17|+1.00|1.00|0.0000|
+|x|         19|         37|          1|     569.5400000|        118|00:00:17|+1.00|1.00|0.0000|
+|x|         16|         37|          1|     569.5400000|        145|00:00:17|+1.00|1.00|0.0000|
+|x|         29|         37|          1|     569.5400000|        172|00:00:17|+1.00|1.00|0.0000|
+|x|          3|         37|          1|     569.5400000|        199|00:00:16|+1.00|1.00|0.0000|
+|x|         21|         37|          1|     569.5400000|        226|00:00:17|+1.00|1.00|0.0000|
+|x|         23|         37|          1|     569.5400000|        253|00:00:17|+1.00|1.00|0.0000|
+|=|         22|         37|          1|     569.5400000|        280|00:00:17|+1.00|1.00|0.0000|
+|x|         20|         37|          1|     569.5400000|        307|00:00:16|+1.00|1.00|0.0000|
+|x|         17|         37|          1|     569.5400000|        334|00:00:17|+1.00|1.00|0.0000|
+|x|          2|         37|          1|     569.5400000|        361|00:00:17|+1.00|1.00|0.0000|
+|x|         18|         37|          1|     569.5400000|        388|00:00:17|+1.00|1.00|0.0000|
+|x|         25|         37|          1|     569.5400000|        415|00:00:17|+1.00|1.00|0.0000|
+|x|          8|         37|          1|     569.5400000|        442|00:00:17|+1.00|1.00|0.0000|
+|x|          7|         37|          1|     569.5400000|        469|00:00:17|+1.00|1.00|0.0000|
+|x|         10|         37|          1|     569.5400000|        496|00:00:18|+1.00|1.00|0.0000|
+|x|         26|         37|          1|     569.5400000|        523|00:00:17|+1.00|1.00|0.0000|
+|=|          5|         37|          1|     569.5400000|        550|00:00:17|+1.00|1.00|0.0000|
+|x|          1|         37|          1|     569.5400000|        577|00:00:17|+1.00|1.00|0.0000|
+|x|          6|         37|          1|     569.5400000|        604|00:00:17|+1.00|1.00|0.0000|
+|x|         14|         37|          1|     569.5400000|        631|00:00:17|+1.00|1.00|0.0000|
+|x|         27|         37|          1|     569.5400000|        658|00:00:17|+1.00|1.00|0.0000|
+|x|         24|         37|          1|     569.5400000|        685|00:00:17|+1.00|1.00|0.0000|
+|x|         15|         37|          1|     569.5400000|        712|00:00:17|+1.00|1.00|0.0000|
+|x|         12|         37|          1|     569.5400000|        739|00:00:17|+1.00|1.00|0.0000|
+|x|         13|         37|          1|     569.5400000|        766|00:00:17|+1.00|1.00|0.0000|
+|x|          9|         37|          1|     569.5400000|        793|00:00:17|+1.00|1.00|0.0000|
+|=|         28|         37|          1|     569.5400000|        820|00:00:18|+1.00|1.00|0.0000|
+|x|         11|         37|          1|     569.5400000|        847|00:00:21|+1.00|1.00|0.0000|
+|x|         32|         37|          1|     569.5400000|        884|00:00:25|+1.00|1.00|0.0000|
+|x|         33|         37|          1|     569.5400000|        921|00:00:25|+1.00|1.00|0.0000|
+|x|         34|         37|          1|     569.5400000|        958|00:00:25|+1.00|1.00|0.0000|
+|x|         35|         37|          1|     569.5400000|        995|00:00:25|+1.00|1.00|0.0000|
+|x|         36|         37|          1|     569.5400000|       1032|00:00:25|+1.00|1.00|0.0000|
+|x|         37|         37|          1|     569.5400000|       1069|00:00:25|+1.00|1.00|0.0000|
+|x|         38|         37|          1|     569.5400000|       1106|00:00:25|+1.00|1.00|0.0000|
+|x|         39|         37|          1|     569.5400000|       1143|00:00:19|+1.00|1.00|0.0000|
+|=|         40|         37|          1|     569.5400000|       1180|00:00:07|+1.00|1.00|0.0000|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+Best-so-far configuration:           1    mean value:      569.5400000
+Description of the best-so-far configuration:
+  .ID. his_len max_attempts .PARENT.
+1    1    5723           60       NA
+
+# 2025-12-26 14:14:56 GMT: Elite configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+   his_len max_attempts
+1     5723           60
+3     7086            7
+4     2161          382
+5    12012          132
+7    19400           70
+9     4624          195
+10    8318          163
+12    3393          288
+13   13243           38
+15     930          101
+# 2025-12-26 14:14:56 GMT: Stopped because there is not enough budget left to race more than the minimum (10).
+# You may either increase the budget or set 'minNbSurvival' to a lower value.
+# Iteration: 4
+# nbIterations: 4
+# experimentsUsed: 3490
+# timeUsed: 0
+# remainingBudget: 10
+# currentBudget: 10
+# number of elites: 10
+# nbConfigurations: 10
+# Total CPU user time: 540.35, CPU sys time: 3629.792, Wall-clock time: 2398.798
+# Best configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+   his_len max_attempts
+1     5723           60
+3     7086            7
+4     2161          382
+5    12012          132
+7    19400           70
+9     4624          195
+10    8318          163
+12    3393          288
+13   13243           38
+15     930          101
+# Best configurations as commandlines (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+1  -his_len 5723 -max_attempts 60
+3  -his_len 7086 -max_attempts 7
+4  -his_len 2161 -max_attempts 382
+5  -his_len 12012 -max_attempts 132
+7  -his_len 19400 -max_attempts 70
+9  -his_len 4624 -max_attempts 195
+10 -his_len 8318 -max_attempts 163
+12 -his_len 3393 -max_attempts 288
+13 -his_len 13243 -max_attempts 38
+15 -his_len 930 -max_attempts 101
+
+
+# Testing of elite configurations: 1 
+# Testing iteration configurations: FALSE 
+# 2025-12-26 14:14:56 GMT: No test instances, skip testing

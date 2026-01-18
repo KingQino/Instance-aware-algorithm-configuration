@@ -1,0 +1,34 @@
+Starting irace...
+# 2025-12-26 13:34:55 GMT: Reading parameter file '/gpfs/home/e/exx866/IRACE-b-LAHC/all-instances-rough/X-n920-k207-s4/parameters.txt'.
+# 2025-12-26 13:34:56 GMT: Read 1 configuration(s) from file '/gpfs/home/e/exx866/IRACE-b-LAHC/all-instances-rough/X-n920-k207-s4/configurations.txt'
+# 2025-12-26 13:34:56 GMT: Initialization
+# Elitist race
+# Elitist new instances: 1
+# Elitist limit: 2
+# nbIterations: 3
+# minNbSurvival: 10
+# nbParameters: 2
+# seed: 1448215817
+# confidence level: 0.95
+# budget: 3500
+# mu: 10
+# deterministic: FALSE
+
+# 2025-12-26 13:34:56 GMT: Iteration 1 of 3
+# experimentsUsed: 0
+# remainingBudget: 3500
+# currentBudget: 1166
+# nbConfigurations: 58
+# Markers:
+     x No test is performed.
+     c Configurations are discarded only due to capping.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+     . All alive configurations are elite and nothing is discarded.
+
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|       Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+|x|          1|         58|          5|     330012.6200|         58|05:10:41|   NA|  NA|    NA|
+slurmstepd: error: *** JOB 1643923 ON node151 CANCELLED AT 2025-12-28T13:34:49 DUE TO TIME LIMIT ***

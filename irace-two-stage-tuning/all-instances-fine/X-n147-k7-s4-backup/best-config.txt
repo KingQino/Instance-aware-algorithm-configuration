@@ -1,0 +1,2 @@
+.ID.	his_len	max_attempts	.PARENT.
+140	4672	107	45

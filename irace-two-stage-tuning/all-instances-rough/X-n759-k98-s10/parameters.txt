@@ -1,0 +1,11 @@
+# 1:            2:                   3:     4:      5:
+his_len         "-his_len "          i      (300, 20000)
+max_attempts    "-max_attempts "     i      (1, 500)
+
+
+[forbidden]
+#mode == "x1" & mutation == "low"
+
+
+[global]
+digits = 2 # Maximum number of decimal places that are significant for numerical (real) parameters.

@@ -1,0 +1,2 @@
+.ID.	his_len	max_attempts	.PARENT.
+247	6616	25	123

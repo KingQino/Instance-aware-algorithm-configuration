@@ -1,0 +1,2 @@
+.ID.	his_len	max_attempts	.PARENT.
+120	9213	40	78

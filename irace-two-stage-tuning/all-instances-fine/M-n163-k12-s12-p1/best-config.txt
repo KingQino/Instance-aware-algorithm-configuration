@@ -1,0 +1,2 @@
+.ID.	his_len	max_attempts	.PARENT.
+192	1966	41	79

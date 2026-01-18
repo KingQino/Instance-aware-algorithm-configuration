@@ -1,0 +1,2 @@
+.ID.	his_len	max_attempts	.PARENT.
+101	5972	21	42

@@ -1,0 +1,21 @@
+parameterFile = "parameters.txt"
+trainInstancesFile = "instances.txt"
+targetRunner = "./target-runner"
+logFile = "irace.Rdata"
+execDir = "./"
+
+parallel = 64
+loadBalancing = 1
+
+maxExperiments = 8000
+minExperiments = NA
+
+blockSize = 1
+
+firstTest = 10
+eachTest  = 10
+
+configurationsFile = "configurations.txt"
+
+postselection = 1
+minNbSurvival = 10

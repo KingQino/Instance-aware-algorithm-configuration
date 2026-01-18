@@ -1,0 +1,2 @@
+.ID.	his_len	max_attempts	.PARENT.
+32	389	28	NA

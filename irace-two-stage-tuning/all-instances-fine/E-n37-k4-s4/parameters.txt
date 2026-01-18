@@ -1,0 +1,7 @@
+# 1:            2:                   3:     4:
+his_len         "-his_len "          i      (4448, 12074)
+max_attempts    "-max_attempts "     i      (2, 51)
+
+
+[global]
+digits = 2

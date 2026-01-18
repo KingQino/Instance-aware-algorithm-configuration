@@ -1,0 +1,2 @@
+instance_folder,n_configs,his_median,his_q25,his_q75,his_iqr,att_median,att_q25,att_q75,att_iqr,rep_his_len,rep_max_attempts,rep_rank,rep_cfg_id,log_path
+X-n749-k98,2,8515.0,8499.5,8530.5,31.0,478.0,469.5,486.5,17.0,8546,461,2,27,./X-n749-k98/irace.log
